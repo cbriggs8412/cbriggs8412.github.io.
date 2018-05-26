@@ -1,0 +1,77 @@
+/* CIT 230 - Assignment Portal CSS Template */
+/* You may use #HEX or color names */
+
+/* * is a wildcard referring to all elements. */
+* { margin: 0; box-sizing: border-box; } 
+
+body { 
+    font-size: 16px; 
+    line-height: 32px;
+    font-family: Helvetica, sans-serif;
+    color: #B86738;
+}
+
+h1 {
+    font-size: 16px;
+    color: #B86738;
+    text-align: center;
+}
+
+h2 {
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+}
+
+header, main, footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 1500px;
+}
+
+header, footer, footer a {
+    text-align: center;
+    background-color: #E3A890;
+    color: whitesmoke;
+}
+
+header img {
+    float: right;
+}
+
+footer {
+    font-size: 12px;
+    background-color: #E3A890;
+	color: #E1D7DB;
+}
+
+#mainnavigation{
+	background-color: #E3A890;
+	color: #E1D7DB;
+	padding: 5px;
+}
+#mainnavigation ul{
+	padding: 0px;
+}
+#mainnavigation li{
+	display: inline;
+}
+#mainnavigation a:link{
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: #E1D7DB;
+	font-weight: 200;
+	letter-spacing: .1em;
+	font-size: 1.09em;
+	margin: 15px 30px 30px 15px;
+}
+#mainnavigation a:visited{
+	color: #FFFFFF;
+}
+#mainnavivation a:hover{
+	color: #B86738;
+}
+#mainnavigation a:active{
+	color: #C9E1DB;
+}
