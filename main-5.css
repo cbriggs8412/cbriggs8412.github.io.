@@ -17,6 +17,10 @@ header {
     text-align: center;
 }
 
+header figure.sitelogo {
+    float: center;
+}
+
 h1, h2, h3 {
     font-family: Brandon Grotesque, serif;  
     color: #D9B310;
@@ -36,10 +40,6 @@ h2 {
 
 h3 {
     font-size: 14px;  
-}
-#mainimage {
-    width: 1260px;  
-    height: 200px;
 }
 
 #townimage{
@@ -72,6 +72,16 @@ li a:hover {
 
 main {
     background-color: #0B3C5D;
+}
+
+main figure.myphoto {
+    width: 50%;
+    margin: 0 0 0 0;
+}
+
+main figure.myphoto img {
+    width: 80%;
+
 }
 
 .weather-summary, .highlow, .current, .conditions {
