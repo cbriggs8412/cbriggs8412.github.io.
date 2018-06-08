@@ -1,4 +1,7 @@
-* { box-sizing: border-box;}
+html { -webkit-text-size-adjust: none}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
 body {
     font-size: 12px;
     font-family: Gotham, sans-serif; 
@@ -7,18 +10,16 @@ body {
     background-color: #1D2731;
 }
 
-header, nav, main, footer { 
-    max-width: -600px; 
-}
-
 header {
     font-family: Brandon Grotesque, serif;
     background-color: #1D2731;
     text-align: center;
 }
 
-header figure.sitelogo {
+.sitelogo {
     float: center;
+    width: 135px;
+    height: 135px;
 }
 
 h1, h2, h3 {
@@ -46,6 +47,11 @@ h3 {
     max-width: 500px;
 }
 
+
+main {
+    background-color: #0B3C5D;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -70,18 +76,13 @@ li a:hover {
     background-color: #D9B310;
 }
 
-main {
-    background-color: #0B3C5D;
-}
-
 main figure.myphoto {
+    margin: 0;
     width: 50%;
-    margin: 0 0 0 0;
 }
 
 main figure.myphoto img {
-    width: 80%;
-
+    width: 100%;
 }
 
 .weather-summary, .highlow, .current, .conditions {
@@ -89,7 +90,7 @@ main figure.myphoto img {
 }
 
 table {
-    display: center;
+    display: inline-block;
     margin-left: 350px;
     margin-right: 350px;
     margin-top: 25px;
