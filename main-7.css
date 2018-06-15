@@ -1,0 +1,120 @@
+html { -webkit-text-size-adjust: none}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    font-size: 12px;
+    font-family: Gotham, sans-serif; 
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #1D2731;
+}
+
+header {
+    font-family: Brandon Grotesque, serif;
+    background-color: #1D2731;
+    text-align: center;
+}
+
+.sitelogo {
+    float: center;
+    width: 135px;
+    height: 135px;
+}
+
+h1, h2, h3 {
+    font-family: Brandon Grotesque, serif;  
+    color: #D9B310;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.subheading {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 14px;  
+}
+
+#townimage{
+    max-width: 500px;
+}
+
+
+main {
+    background-color: #0B3C5D;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #D9B310;
+}
+
+li {
+    float: left;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: #328CC1;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #D9B310;
+}
+
+main figure.myphoto {
+    margin: 0;
+    width: 50%;
+}
+
+main figure.myphoto img {
+    width: 100%;
+}
+
+.weather-summary, .highlow, .current, .conditions {
+    display: inline-block;
+}
+
+table {
+    display: inline-block;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 2px solid #328CC1;
+}
+
+.town-article {
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+article, .town-center {
+    display: inline-block;
+}
+
+footer {
+    background-color: #1D2731;
+    text-align: center;
+    color: #D9B310;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px; 
+}
