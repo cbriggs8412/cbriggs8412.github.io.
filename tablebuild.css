@@ -1,0 +1,80 @@
+body {
+	width: 285px;
+    margin-left:40px;
+}
+
+header {
+    margin-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #000000;    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 6px 6px 10px #628CA6;
+}
+
+table, th, td {
+   border: 1px solid gray;
+}
+
+thead {
+    padding: 10px;
+    font-size: 28px;
+}
+
+thead tr th {
+    font-family: 'Ubuntu', sans-serif;
+    color: #000000;
+}
+
+thead th:nth-child(1) {
+    background-color:  #7FB9C2;
+}
+
+tbody {
+    color: #000000;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+}
+
+th {
+    color: #FFFFFF;
+    padding: 10px;
+    background-color: #628CA6;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: #E7FFED;
+}
+
+tr:nth-child(even) {
+    background-color: #E7F0ED;
+}
+
+tr td.section1 {
+    background-color: #628CA6;
+}
+
+.section1 {
+    color: #FFF;
+}
+
+tfoot tr:nth-child(1) {
+    background-color: #7FB9C2;
+}
+
+tfoot {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #7FB9C2;
+    color: #000000;
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
