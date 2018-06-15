@@ -30,5 +30,13 @@ nav li a:hover {
     background-color: #FFFFFF;
     color: #328CC1;
 }
+    
+div.weatherGallery {
+    grid-template-columns: repeat(3, 32%);
+}
+	
+div.weatherGallery figure:hover {
+    box-shadow: 3px 3px 3px #328CC1;
+}
 
 }

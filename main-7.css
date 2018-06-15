@@ -52,28 +52,51 @@ main {
     background-color: #0B3C5D;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+nav ul {
+	display: flex;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+}
+
+nav ul.show {
+	display: flex;
+    display: -ms-flexbox;
+}
+
+nav ul.hide {
+	display: block;
+}
+        
+nav ul li {
+	list-style: none;
+    flex-basis: 100%;
+    -ms-flex: 100%;
+}
+
+.navigationmenu { 
     background-color: #D9B310;
+    margin:0;
+    padding: 0;
 }
 
-li {
-    float: left;
+.navigationmenu li a {
+    font-family: 'Brandon Grotesque', Georgia; serif;
     text-align: center;
-}
-
-li a {
+    text-shadow: .5px .5px 1.5px #c0c0c0;
+    font-size: medium;
     display: block;
     color: #328CC1;
-    padding: 14px 16px;
+    padding: .5rem 0;
     text-decoration: none;
 }
-
-li a:hover {
+.navigationmenu li a:hover {
+    background-color: #FFFFFF;
+    color: #143e7f;
+}
+.navigationmenu li a.active {
     background-color: #D9B310;
+    color: #B2CFFF;
 }
 
 main figure.myphoto {
@@ -107,6 +130,39 @@ table {
 
 article, .town-center {
     display: inline-block;
+}
+
+.galleryheadline {
+    'Brandon Grotesque', Georgia; serif;
+    color: #1D2731;
+    font-size: xx-large;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-bottom: 5px;
+}
+
+main div.photoFullWidth {
+    margin: 0;
+    margin-left: 2%;
+    width: 50%;
+}
+
+div.gallery {
+	padding: 0 2%;
+	display: grid;
+	grid-template-columns: repeat(1, 100%);
+}
+
+div.gallery figure {
+	margin: 2rem 0; border: 1px solid #aaa;
+}
+
+div.gallery figure img {
+	width: 50%;
+}
+
+div.gallery figure figcaption {
+	text-align: center; font-size: .9rem;
 }
 
 footer {

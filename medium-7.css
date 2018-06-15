@@ -42,5 +42,14 @@ nav button {
 .forecast {
     display: block;
 }
+
+div.gallery {
+    grid-template-columns: repeat(2, 49%);
+    grid-gap:2%;
+}
+
+div.gallery figure:hover {
+    box-shadow: 3px 3px 3px #328CC1;
+}
     
 }
