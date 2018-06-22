@@ -1,0 +1,55 @@
+@media only screen and (min-width: 37.5em) {   
+    
+nav ul {
+    display: flex;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+}
+
+nav ul show {
+    display: flex;
+    display: -ms-flexbox;
+}
+nav ul hide {
+    display: none;
+}
+        
+
+nav ul li {
+    list-style: none;
+    flex-basis: 100%;
+    -ms-flex: 100%;
+}
+
+navigation { 
+    background-color: #D9B310;
+    margin:0;
+    padding: 0;
+}
+
+nav button {
+    position: absolute;
+    top: .5rem;
+    right: 2%;
+}
+    
+.navigation li a:hover {
+    background-color: #FFFFFF;
+    color: #328CC1;
+}
+   
+.forecast {
+    display: block;
+}
+
+div.gallery {
+    grid-template-columns: repeat(2, 49%);
+    grid-gap:2%;
+}
+
+div.gallery figure:hover {
+    box-shadow: 3px 3px 3px #328CC1;
+}
+    
+}

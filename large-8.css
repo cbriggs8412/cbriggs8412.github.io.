@@ -1,0 +1,42 @@
+@media only screen and (min-width: 1141px){
+   
+header {
+    font-size: large;
+}
+    
+nav ul li {
+    flex-basis: auto; 
+    -ms-flex: auto;
+}
+
+nav ul li {
+    -ms-flex: 0 0 auto;
+    }
+     
+nav {
+    margin-left: -10px;
+    overflow: hidden;
+    background-color: #D9B310;
+}
+
+nav li a {
+    color: #328CC1;
+    font-size: 27px;
+    padding: 10px 15px 10px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #FFFFFF;
+    color: #328CC1;
+}
+    
+div.weatherGallery {
+    grid-template-columns: repeat(3, 32%);
+}
+	
+div.weatherGallery figure:hover {
+    box-shadow: 3px 3px 3px #328CC1;
+}
+
+}

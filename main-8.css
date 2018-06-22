@@ -1,0 +1,248 @@
+html { -webkit-text-size-adjust: none}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*------Main CSS Design-------*/
+body {
+    font-size: 12px;
+    font-family: Gotham, sans-serif; 
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #1D2731;
+}
+
+header {
+    font-family: 'Brandon Grotesque', georgia; 
+    background-color: #1D2731;
+    text-align: center;
+}
+
+.sitelogo {
+    float: center;
+    width: 135px;
+    height: 135px;
+}
+
+h1, h2, h3 {
+    font-family: Brandon Grotesque, georgia;   
+    color: #D9B310;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.subheading {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 14px;  
+}
+
+#townimage{
+    max-width: 500px;
+}
+
+
+main {
+    background-color: #0B3C5D;
+}
+
+nav ul {
+	display: flex;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+}
+
+nav ul.show {
+	display: flex;
+    display: -ms-flexbox;
+}
+
+nav ul.hide {
+	display: block;
+}
+        
+nav ul li {
+	list-style: none;
+    flex-basis: 100%;
+    -ms-flex: 100%;
+}
+
+.navigationmenu { 
+    background-color: #D9B310;
+    margin:0;
+    padding: 0;
+}
+
+.navigationmenu li a {
+    font-family: 'Brandon Grotesque', Georgia; 
+    text-align: center;
+    text-shadow: .5px .5px 1.5px #c0c0c0;
+    font-size: medium;
+    display: block;
+    color: #328CC1;
+    padding: .5rem 0;
+    text-decoration: none;
+}
+.navigationmenu li a:hover {
+    background-color: #FFFFFF;
+    color: #143e7f;
+}
+.navigationmenu li a.active {
+    background-color: #D9B310;
+    color: #B2CFFF;
+}
+
+main figure.myphoto {
+    margin: 0;
+    width: 50%;
+}
+
+main figure.myphoto img {
+    width: 100%;
+}
+
+.weather-summary, .highlow, .current, .conditions {
+    display: inline-block;
+}
+
+table {
+    display: inline-block;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 2px solid #328CC1;
+}
+
+.town-article {
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+article, .town-center {
+    display: inline-block;
+}
+
+footer {
+    background-color: #1D2731;
+    text-align: center;
+    color: #D9B310;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px; 
+}
+
+/*------Gallery-------*/
+.galleryheadline {
+    font-family: 'Brandon Grotesque', georgia; 
+    color: #1D2731;
+    font-size: 30px;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-bottom: 5px;
+}
+
+main div.photoFullWidth {
+    margin: 0;
+    margin-left: 2%;
+    width: 50%;
+}
+
+div.gallery {
+	padding: 0 2%;
+	display: grid;
+	grid-template-columns: repeat(1, 100%);
+}
+
+div.gallery figure {
+	margin: 2rem 0; border: 1px solid #aaa;
+}
+
+div.gallery figure img {
+	width: 50%;
+}
+
+div.gallery figure figcaption {
+	text-align: center; font-size: .9rem;
+}
+
+/*------Storm Center-------*/
+.personalinfo {
+    font-family: 'Brandon Brotesque', georgia; 
+    color: #D9B310;
+    font-size: 30px;
+    text-shadow: .5px .5px 1.5px #000000;
+    background-color: #1D2731;
+    margin-top: 35px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+
+form#conditions {
+    margin: 1em 3%;
+}
+fieldset {
+    background-color: #1D2731;
+    margin: 1.5em 0;
+}
+legend {
+    font-family: 'Nanum Myeongjo', georgia; 
+    margin-left: 3%;
+    padding: .5em;
+    color: #D9B310;
+    background-color: #1D2731;
+    font-size: 1em;
+    }
+label {
+    display: block;
+    margin: .5em;
+}
+label span {
+    display: block;
+    font-size: 1.25em;
+    padding-top: .5em;
+    padding-bottom: .3em;
+    color: #D9B310;
+}
+
+.stormdate {
+    margin-bottom: .1em;
+}
+
+.storminput {
+    margin-left: .7em;
+}
+
+.storminfo {
+    font-family: 'Brandon Grotesque', georgia; 
+    color: #000000;
+    margin-left: .7em;
+    margin-bottom: .5em;
+}
+
+input.submitBtn {
+    -webkit-appearance: none;
+    border: solid 1px #FFFFFF;
+    width: 35%;
+    margin: .5em 0;
+    font-family: 'Brandon Grotesque', georgia; 
+    font-size: 1.33em;
+    padding: .6em;
+    background: #D9B310;
+    color: #FFFFFF;
+}
+
+ input.submitBtn:hover {
+		box-shadow: 3px 3px 9px #000000;
+	}

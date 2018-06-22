@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Franklin Storm Center</title>
+        <meta charset="utf-8">
+     	<meta name="viewport" content="width=devicewidth, initial-scale=1">
+     	<meta name="description" content="Franklin Page for Sunny Days Weather Forecast"> 
+     	<link rel="stylesheet" href="styles/normalize.css"> 
+     	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+     	<link type="text/css" rel="stylesheet" href="main-8.css"/> 
+     	<link rel="stylesheet" href="styles/medium-8.css">
+     	<link rel="stylesheet" href="styles/large-8.css">
+    </head>
+	<body>
+    <header>
+        <figure class="sitelogo">
+        <img src="Images/weathersitelogo.png" alt="logo">
+        </figure>
+        <h1 class="headertitle">Sunny Days | Franklin</h1>
+        <div class="subheading">"Best Source for Daily Weather Forecast"</div>
+    </header>
+    <nav class="navigationmenu">
+        <ul id="mainnavigation" class="hide">
+    	   <li><a href="index.html">Home</a></li>
+    	   <li><a href="franklin-8.html">Franklin</a></li>
+    	   <li><a href="#">Greenville</a></li>
+    	   <li><a href="#">Springfield</a></li>
+    	   <li><a href="stormcenter.html">Storm Center</a></li>
+    	   <li><a href="gallery-8.html">Gallery</a></li>
+        </ul>		
+    </nav>
+        <main>
+            <h1 class="personalinfo">Franklin's Storm Center</h1>
+            <fieldset>
+            <legend><span>PLEASE FILL OUT INFORMATION BELOW</span></legend>
+                <label><span>FULL NAME:</span><input name="fullname" type="text" value="" placeholder="FULL NAME" pattern="[a-zA-Z -._]{5,99}" required></label>
+                <label><span>EMAIL:</span><input name="email" type="email" value="" placeholder="franklinstormcenter@weather.com" required></label>
+                <label><span>PHONE:</span><input name="phone" type="tel" value="" placeholder="0123456789" pattern="[0-9]{10}" required></label>
+                <label><span>ZIP CODE:</span><input name="zipcode" type="number" placeholder="ZIPCODE" required></label>
+            </fieldset>
+            <fieldset>
+                <legend><span>PLEASE FILL OUT STORM INFORMATION</span></legend>
+                <label class="stormdate"><span>STORM DATE:</span><input name="date" type="date" required></label>
+                <br>
+                <label class="storminput"><span>STORM TYPE:</span></label>
+                <input class="storminfo" type="text" name="stormType" list="storms">
+                <datalist id="conditions">
+                    <option value="Flash Flood">
+                    <option value="Hail">  
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado"> 
+                </datalist>
+                <br>
+                <br>
+                <label class="info" for="severity"><span>RANK SEVERITY (1(lowest) to 10(highest))</span></label><input class="storminfo" type="range" id="severity" value="5" min="1" max="10" step="1" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)"><span id="severityvalue">10</span>
+                <br>
+                <label class="info"><span>STORM REGION:</span></label>
+                <input class="storminfo" type="text" name="stormRegion" list="regions" placeholder="SELECT REGION">
+                <datalist id="regions">
+                    <option value="Franklin">
+                    <option value="Greenville">    
+                    <option value="Springfield">
+                </datalist>
+                </fieldset>               
+                <fieldset>
+                <legend><span>ARE YOU IN DANGER?</span></legend>
+                <br>
+                <input class="storminfo" type="radio" name="UserInDanger" value="yes"> YES<br>
+                <input class="storminfo" type="radio" name="UserInDanger" value="maybe"> MAYBE<br>
+                <input class="storminfo" type="radio" name="UserInDanger" value="no"> NO<br>    
+                <br>
+                <textarea class="storminfo" rows="6" cols="60" name="comment" placeholder="Please provide any additional information about the weather conditions you are experiencing."></textarea>
+                </fieldset>
+                <input type="submit" value="SUBMIT" class="submitBtn">
+        </main>
+        <br>
+        <footer>
+    		<section class="contact">
+      		Sunny Days Weather Site<br>
+     		999.999.9999<br>
+      		123 Main Street, Franklin US<br>
+      		Email: sunnydays@weather.com
+   			</section>
+    		<section class="footer-bar">&copy;2018 | All Rights Reserved | Sunny Days|Franklin | 6 April 2020 <script type="text/javascript" src="currentdate.js"></script>
+    		</section>
+ 		</footer>
+    </body>
+</html>
