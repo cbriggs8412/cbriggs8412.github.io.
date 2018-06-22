@@ -24,9 +24,10 @@ h2 {
 }
 
 header, main, footer {
-    margin: 1.25rem auto;
+    margin: auto;
     padding: .5rem;
-    max-width: 1500px;
+    max-width: 650px;
+    background-color: #C9E1DB;
 }
 
 header, footer, footer a {
@@ -42,7 +43,7 @@ header img {
 footer {
     font-size: 12px;
     background-color: #E3A890;
-	color: #E1D7DB;
+	color: #FFFFFF;
 }
 
 #mainnavigation{
@@ -60,14 +61,14 @@ footer {
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
-	color: #E1D7DB;
+	color: #FFFFFF;
 	font-weight: 200;
 	letter-spacing: .1em;
 	font-size: 1.09em;
 	margin: 15px 30px 30px 15px;
 }
 #mainnavigation a:visited{
-	color: #FFFFFF;
+	color:  #C9E1DB;
 }
 #mainnavivation a:hover{
 	color: #B86738;
