@@ -1,0 +1,62 @@
+@media screen and (min-width:740px) and (max-width:1024px) {
+  /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@-ms-viewport {
+  width: device-width ;
+} 
+   
+header {
+    font-size: large;
+}
+    
+nav ul li {
+    flex-basis: auto; 
+    -ms-flex: auto;
+}
+
+nav ul li {
+    -ms-flex: 0 0 auto;
+    }
+     
+nav {
+    margin-left: -10px;
+    overflow: hidden;
+    background-color: #D9B310;
+}
+
+nav li a {
+    color: #328CC1;
+    font-size: 27px;
+    padding: 10px 15px 10px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #FFFFFF;
+    color: #328CC1;
+}
+
+/* Home Page */
+div.weatherstory img {
+	div.weatherstory img {
+	width: 800px;
+	height: 500px;
+}
+}
+  
+/* Gallery */  
+div.weatherGallery {
+    grid-template-columns: repeat(3, 32%);
+}
+	
+div.weatherGallery figure:hover {
+    box-shadow: 3px 3px 3px #328CC1;
+}
+
+}

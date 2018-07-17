@@ -84,8 +84,7 @@ nav ul li {
 .navigationmenu li a {
     font-family: 'Brandon Grotesque', Georgia; 
     text-align: center;
-    text-shadow: .5px .5px 1.5px #c0c0c0;
-    font-size: medium;
+    font-size: 16px;
     display: block;
     color: #328CC1;
     padding: .5rem 0;
@@ -93,11 +92,11 @@ nav ul li {
 }
 .navigationmenu li a:hover {
     background-color: #FFFFFF;
-    color: #143e7f;
+    color: #143E7F;
 }
 .navigationmenu li a.active {
     background-color: #D9B310;
-    color: #B2CFFF;
+    color: #328CC1;
 }
 
 main figure.myphoto {
@@ -197,7 +196,7 @@ fieldset {
     margin: 1.5em 0;
 }
 legend {
-    font-family: 'Nanum Myeongjo', georgia; 
+    font-family: 'Brandon Grotesque', Georgia, serif; 
     margin-left: 3%;
     padding: .5em;
     color: #D9B310;
