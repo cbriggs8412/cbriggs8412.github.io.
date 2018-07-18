@@ -270,11 +270,8 @@ body {
 	color: rgba(0,0,0,0.8);
 }
 
+
 .footer a {
-	text-decoration: none;
-	font-weight: normal;
-	color:inherit;
-    .footer a {
 	text-decoration: none;
 	font-weight: normal;
 	color:inherit;
@@ -283,5 +280,3 @@ body {
     display: inline-block;
     padding-right: 15px;
 }
-}
-
