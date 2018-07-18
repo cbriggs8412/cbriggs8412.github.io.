@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+         <meta charset="utf-8">
+        <meta name="description" content="The weather page for Franklin on Forecast For You website.">
+        <title>Your Daily Forecast, brought to you by Cinthya B.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/normalize.css" rel="stylesheet" >
+        <link type="text/css" rel="stylesheet" href="main.css"/> 
+     	<link rel="stylesheet" href="medium.css">
+     	<link rel="stylesheet" href="large.css">
+         
+    </head>
+    <body>
+        <header class="logoheader">
+            <img src="Images/weathersitelogo.png" alt="logo" />
+            <h1>Sunny Days | Springfield</h1>
+            <h4 class="slogan">"Best Source for Daily Weather Forecast"</h4> 
+        </header>
+        <nav class="navigation">
+            <ul id="primaryNavigation" class="show">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="franklin.html">Franklin</a></li>
+                <li><a href="greenville.html">Greenville</a></li>
+                <li><a href="springfield.html">Springfield</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul> 
+        </nav>
+    <main>
+        <figure class="myphoto">
+        <img src="franklinpageimage.jpg" alt="Town of Franklin Webpage Image" height="500" width="800">
+        </figure>
+		<div id="mainfranklinsection">
+        <h1>Springfield</h1>
+        <section class="weather-summary">
+      <h2>Weather Summary</h2>    
+      <div class="highlow">
+        <p>High: 93&deg;F</p>  
+        <p>Low: 68&deg;F</p>  
+      </div>
+      <div class="current">
+        Sunny
+        <figure class="sunimage">
+            <img src=Images/sunlogo.png alt="sunny">
+        </figure>
+      </div>   
+      <div class="conditions">
+        <p>Precipitation: 0%</p>  
+        <p>Wind Speed: 4 mpg SW</p>  
+      </div>           
+    </section>
+    </div>
+        
+    <section>
+      <h3>Ten Day Forecast</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Day 1</th>
+            <th>Day 2</th>
+            <th>Day 3</th>
+            <th>Day 4</th>
+            <th>Day 5</th>
+            <th>Day 6</th>
+            <th>Day 7</th>
+            <th>Day 8</th>
+            <th>Day 9</th>
+            <th>Day 10</th>
+          </tr>
+	</thead>
+        <tbody>  
+          <tr>
+            <td>93&deg;F</td>
+            <td>86&deg;F</td>
+            <td>84&deg;F</td>
+            <td>84&deg;F</td>
+            <td>90&deg;F</td>
+            <td>89&deg;F</td>
+            <td>91&deg;F</td>
+            <td>93&deg;F</td>
+            <td>86&deg;F</td>
+            <td>90&deg;F</td>
+          </tr>
+	</tbody>
+      </table>
+    </section>
+      
+    <article id="recordarticle">
+      <h3>Springfield Welcomes Summer</h3>	
+        <figure class="articleimage">
+      <img id="townimage" src="springfieldpageimage2.jpg" alt="Sunny Side of Franklin" height="500" width="800">
+        </figure>
+      <p class="town-article">
+          The town of Springfield has officially left the cold winter days and the crisp spring mornings. Springfield is hitting those higher temperatures earlier than usual but the weather is consistently fluctuating between the low 90's and low 80's, so there is still  for a cooler summer.</p>
+    </article>		  
+  </main>
+    
+  <footer>
+    <section class="contact">
+      Sunny Days Weather Site<br>
+      999.999.9999<br>
+      123 Main Street, Franklin US<br>
+      Email: sunnydays@weather.com
+    </section>
+    <section class="footer-bar">&copy;2018 | All Rights Reserved | Sunny Days|Franklin | 6 April 2020 <script type="text/javascript" src="currentdate.js"></script>
+    </section>
+  </footer>
+   <script type="text/javascript" src="windchill.js"> 
+</body>
+</html>
