@@ -1,0 +1,165 @@
+/*------Prevents phones from resizing in landscape mode -------*/
+html { -webkit-text-size-adjust: none}
+
+/*-----------apply a natural box layout model to all elements -------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Header */
+
+.logoheader img {
+  float: left;
+  margin-left: 20px;
+  width: 135px;
+  height: 135px;
+}
+
+.logoheader h1 {
+  position: relative;
+  top: 18px;
+  left: 1px;
+}
+
+/* Main (same on all pages) */
+
+body, main {
+    background-color: #0B3C5D;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Gotham', sans-serif;
+}
+
+header {
+    font-family: 'Brandon Grotesque', 'Georgia', serif;
+    background-color: #1D2731;
+    text-align: center;
+    padding: 5px;
+}
+
+h1, h2, h3 {
+    font-family: 'Brandon Grotesque', 'Georgia', serif;  
+    color: #D9B310;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.subheading {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;  
+}
+
+.slogan {
+    font-family: 'Gotham', sans-serif;
+    padding: 2px;
+    margin-left: 100px;
+}
+
+footer {
+    background-color: #1D2731;
+    text-align: center;
+    font-family: 'Brandon Grotesque', 'Georgia', serif;
+    color: #D9B310;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px; 
+}
+
+/* Main Navigation */
+
+nav ul {display: flex;
+        display: -ms-flexbox;
+        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+}
+
+nav ul.show{display: flex;
+            display: -ms-flexbox;}
+nav ul.hide{display: none;}
+        
+
+nav ul li {list-style: none;
+           flex-basis: 100%;
+           -ms-flex: 100%;
+}
+
+.navigation { 
+    background-color: #D9B310;
+    margin:0;
+    padding: 0;
+}
+
+.navigation li a {
+    font-family: 'Brandon Grotesque', 'Georgia', serif; 
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    background-color: #D9B310;
+    border: 1px solid #1D2731;
+    color: #328CC1;
+    padding: .5rem 0;
+    text-decoration: none;
+}
+.navigation li a:hover {
+    background-color: #1D2731;
+    color: #FFFFFF;
+}
+.navigation li a.active {
+    background-color: #D9B310;
+    color: #B2CFFF;
+}
+
+/* Main Page Content */
+
+body, main {
+	text-align: center;
+}
+
+main figure.myphoto {
+    margin: 0;
+    width: 800px;
+    height: 500px;
+}
+
+main figure.myphoto img {
+    width: 800px;
+    height: 500px;
+}
+
+.weather-summary, .highlow, .current, .conditions {
+    display: inline-block;
+}
+
+table {
+    display: inline-block;
+    border: 8px solid #328CC1;
+    margin-bottom: 5px;
+}
+
+th, td {
+	border: 5px solid #328CC1;
+}
+
+.town-article {
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+article, .town-center {
+    display: inline-block;
+}
+
+#recordarticle, #mainfranklinsection{
+	 border: 5px solid #D9B310;
+	 background-color: #328CC1;
+}
