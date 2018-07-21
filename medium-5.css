@@ -1,4 +1,15 @@
-@media only screen and (min-width: 37.5em) {   
+@media screen and (min-width:320px) and (max-width:740px) {
+  /* for screens that are at least 320 pixels wide but less than or equal to 740 pixels wide */
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@-ms-viewport {
+  width: device-width ;
+} 
     
 nav ul {
     display: flex;
@@ -38,9 +49,18 @@ nav button {
     background-color: #FFFFFF;
     color: #328CC1;
 }
-   
-.forecast {
-    display: block;
+
+/* Franklin Page */
+.weathersummary {
+    display: left;
 }
-    
+
+table {
+    display: inline-block;
+    border: 8px solid #328CC1;
+}
+
+.town-article {
+	width: 50%;
+	height: 50%;
 }
