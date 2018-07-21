@@ -1,34 +1,47 @@
+/*------Prevents phones from resizing in landscape mode -------*/
 html { -webkit-text-size-adjust: none}
 
+/*-----------apply a natural box layout model to all elements -------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-body {
-    font-size: 12px;
-    font-family: Gotham, sans-serif; 
+/* Header */
+
+.logoheader img {
+  float: left;
+  margin-left: 20px;
+  width: 135px;
+  height: 135px;
+}
+
+.logoheader h1 {
+  position: relative;
+  top: 18px;
+  left: 1px;
+}
+
+/* Main (same on all pages) */
+
+body, main {
+    background-color: #0B3C5D;
     color: #FFFFFF;
-    text-align: center;
-    background-color: #1D2731;
+    font-size: 14px;
+    font-family: 'Gotham', sans-serif;
 }
 
 header {
-    font-family: Brandon Grotesque, serif;
+    font-family: 'Brandon Grotesque', 'Georgia', serif;
     background-color: #1D2731;
     text-align: center;
-}
-
-.sitelogo {
-    float: center;
-    width: 135px;
-    height: 135px;
+    padding: 5px;
 }
 
 h1, h2, h3 {
-    font-family: Brandon Grotesque, serif;  
+    font-family: 'Brandon Grotesque', 'Georgia', serif;  
     color: #D9B310;
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 40px;
 }
 
 .subheading {
@@ -36,72 +49,83 @@ h1 {
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 h3 {
-    font-size: 14px;  
+    font-size: 18px;  
 }
 
-#townimage{
-    max-width: 500px;
+.slogan {
+    font-family: 'Gotham', sans-serif;
+    padding: 2px;
+    margin-left: 100px;
 }
 
-
-main {
-    background-color: #0B3C5D;
+footer {
+    background-color: #1D2731;
+    text-align: center;
+    font-family: 'Brandon Grotesque', 'Georgia', serif;
+    color: #D9B310;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px; 
 }
 
-nav ul {
-	display: flex;
-    display: -ms-flexbox;
-    flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
+/* Main Navigation (same on all pages) */
+
+nav ul {display: flex;
+        display: -ms-flexbox;
+        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
 }
 
-nav ul.show {
-	display: flex;
-    display: -ms-flexbox;
-}
-
-nav ul.hide {
-	display: block;
-}
+nav ul.show{display: flex;
+            display: -ms-flexbox;}
+nav ul.hide{display: none;}
         
-nav ul li {
-	list-style: none;
-    flex-basis: 100%;
-    -ms-flex: 100%;
+
+nav ul li {list-style: none;
+           flex-basis: 100%;
+           -ms-flex: 100%;
 }
 
-.navigationmenu { 
+.navigation { 
     background-color: #D9B310;
     margin:0;
     padding: 0;
 }
 
-.navigationmenu li a {
-    font-family: 'Brandon Grotesque', Georgia; serif;
+.navigation li a {
+    font-family: 'Brandon Grotesque', 'Georgia', serif; 
     text-align: center;
-    text-shadow: .5px .5px 1.5px #c0c0c0;
-    font-size: medium;
+    font-size: 16px;
     display: block;
+    background-color: #D9B310;
+    border: 1px solid #1D2731;
     color: #328CC1;
     padding: .5rem 0;
     text-decoration: none;
 }
-.navigationmenu li a:hover {
-    background-color: #FFFFFF;
-    color: #143e7f;
+.navigation li a:hover {
+    background-color: #1D2731;
+    color: #FFFFFF;
 }
-.navigationmenu li a.active {
+.navigation li a.active {
     background-color: #D9B310;
     color: #B2CFFF;
 }
 
+/* Franklin Content*/
+
+body, main {
+	text-align: center;
+}
+
 main figure.myphoto {
     margin: 0;
-    width: 50%;
+    width: 100%;
 }
 
 main figure.myphoto img {
@@ -114,11 +138,12 @@ main figure.myphoto img {
 
 table {
     display: inline-block;
-    margin-left: 350px;
-    margin-right: 350px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    border: 2px solid #328CC1;
+    border: 8px solid #328CC1;
+    margin-bottom: 5px;
+}
+
+th, td {
+	border: 5px solid #328CC1;
 }
 
 .town-article {
@@ -132,10 +157,13 @@ article, .town-center {
     display: inline-block;
 }
 
+#recordarticle, #mainfranklinsection{
+	 border: 5px solid #D9B310;
+	 background-color: #328CC1;
+}
+
+/*  Weather Gallery */
 .galleryheadline {
-    'Brandon Grotesque', Georgia; serif;
-    color: #1D2731;
-    font-size: xx-large;
     margin-top: 35px;
     margin-left: 35px;
     margin-bottom: 5px;
@@ -154,23 +182,16 @@ div.gallery {
 }
 
 div.gallery figure {
-	margin: 2rem 0; border: 1px solid #aaa;
+	margin: 2rem 0; 
+	border: 5px solid #D9B310;
+	background-color: #328CC1;
 }
 
 div.gallery figure img {
 	width: 50%;
+    box-shadow: 2px 2px 2px 2px #D9B310;
 }
 
 div.gallery figure figcaption {
 	text-align: center; font-size: .9rem;
-}
-
-footer {
-    background-color: #1D2731;
-    text-align: center;
-    color: #D9B310;
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px; 
 }

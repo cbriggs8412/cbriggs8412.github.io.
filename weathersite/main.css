@@ -230,6 +230,7 @@ div.gallery figure {
 
 div.gallery figure img {
 	width: 50%;
+    box-shadow: 2px 2px 2px 2px #D9B310;
 }
 
 div.gallery figure figcaption {
