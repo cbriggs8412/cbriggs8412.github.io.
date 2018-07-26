@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>The Mountain Spoke · Events Page</title>
+      <meta name="author" content="Term Website presented by Cinthya Briggs">
+      <meta name="description" content="The Mountain Spoke Events Page">
+          <link href="//fonts.googleapis.com/css?family=Bodoni" rel="stylesheet">
+          <link rel="stylesheet" href="normalize.css"> 
+          <link rel="stylesheet" href="main.css">
+          <link rel="stylesheet" href="medium.css">
+          <link rel="stylesheet" href="large.css">
+</head>
+<body>
+
+  <header>
+  	<img src="TMSLogoFinal.jpg" alt="The Mountain Spoke Official Logo">
+  	<h1>The Mountain Spoke</h1>
+  	<h2>· Your #1 Source for Everything Bicycles and Adventure</h2>
+  </header>
+
+   <nav>
+    <div class="topnav" id="myTopnav">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+        <a href="index.html" class="active">Home</a>
+        <a href="tours.html" class="link">Adventure Tours</a>
+        <a href="events.html" class="link">Events</a>
+        <a href="sales.html" class="link">Sales · Products</a>
+        <a href="services.html" class="link">Service(s)</a>
+        <a href="contact.html" class="link">Contact Us</a>
+    </div>
+ </nav>
+    
+<main class="eventspage">
+	<h2 class="montanacontent">Cycle the Continental Divide</h2><br>
+      <section class="montanastory" id="montanastory">
+        <article>
+        <h3>Event Information</h3>
+        <div>
+        	<p>Dates: July 31st-August 3rd</p>
+      		<p>Route:</p>
+      	<ol>
+      		<li>Roosville, MT to Helena, MT (371.1 mi.)</li>
+			<li>Helena, MT to Colter Bay, WY (449.6 mi.)</li>
+			<li>Colter Bay, WY to Rawlins, WY (365.5 mi.)</li>
+			<li>Rawlins, WY to Salida, CO (374.9 mi.)</li>
+			<li>Salida, CO to Grants, NM (539.2 mi.)</li>
+			<li>Grants, NM to Antelope Wells, NM (394.4 mi.)</li>
+		</ol>
+      		<p>Cost(s): $235/area. $1410 total.</p>
+      		<p>Basic Requirements: </p>
+      	<ol>
+      		<li>Own Equipment (bike, helmet, water, etc.)</li>
+      		<li>Complete Registration Form (which you can complete below)</li>
+      	</ol>
+        </div>
+        <div>
+         <p><img src="eventsimage1.jpg" alt="Cyclists on Continental Divide" height="400" width="500"></p>
+            </div>
+            </article>
+      </section>
+    <h1>Cyclist Registration</h1>
+      <form id="eventspage" method="get" action="thanks.html">
+      <fieldset>
+        <div class="personaltop">
+        <legend>
+		<div>Personal Information</div>
+		</legend>
+        <label class="personalInfo">
+          <div>Full Name:</div>		  
+          <input type="text" name="fullname" placeholder="Full Name" autofocus pattern="[a-zA-Z -._]{5,99}" required>
+        </label>
+        <label class="personalInfo">
+          <div>Date of Birth:</div>
+          <input type="date" name="dateofbirth" value="" placeholder="12/12/1212" required>
+        </label>
+        <label class="personalInfo">
+          <div>Email Address:</div>
+          <input type="email" name="email" placeholder="youremail@email.com" required>
+        </label>
+        <label class="personalInfo">
+          <div>Phone Number:</div>
+          <input type="tel" name="phonenumber" value="" placeholder="(012) 345- 6789" pattern="[0-9]{10,20}" required>
+        </label> 
+        </div>
+      </fieldset>
+      <fieldset>
+        <div class="personalbottom">
+        <legend>
+		<div>Region Information</div>
+		</legend>
+        <label>
+          <div>State:</div> 
+          <input type="name" name="state">
+        </label>      
+        <label>
+          <div>Country:</div>
+		  <select name="country">
+            <option disabled selected>Select Country ...</option>
+            <option value="United States">United States</option>
+            <option value="Canada">Canada</option>
+            <option value="Mexico">Mexico</option>
+          </select>
+        </label>
+        <label>
+          <div>Additional Information or Comments:</div>
+		  <textarea  name="comments" cols="40" rows="6" placeholder="Additional information or comments.">
+		  </textarea>
+        </label>
+      </div>
+      </fieldset>
+      <input type="submit" class="submitBtn" value="Submit Registration">
+      
+  </main>
+  <footer>
+  	<p><i>The Mountain Spoke</i><br><b>Address:</b> 3950 Valley Commons Drive Bozeman, MT<br><b>Phone Number:</b> 012.345.6789<br><b>Email Adress:</b> contact@mountainspoke.com<br><a href="video.html">Overview Video</a></p>
+  	</footer>
+</body>
+<script src="hamburger.js"></script>
+</html>

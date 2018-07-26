@@ -1,0 +1,37 @@
+@media screen and (min-width:760px) and (max-width:1024px) {
+  /* for screens that are at least 320 pixels wide but less than or equal to 740 pixels wide */
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@-ms-viewport {
+  width: device-width ;
+} 
+    
+  .title {
+    font-size: 40px;
+    
+  }
+    
+  .subtitle {
+    font-size: 24px;
+  }   
+    
+  
+  .topnav a {
+    font-size: 24px;
+  }
+  
+    .article-image {
+        order: 2;
+    } 
+    
+    footer {
+        margin-top: 5em;
+        font-size: 14px;
+        
+    }    
+

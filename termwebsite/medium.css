@@ -1,0 +1,30 @@
+/*  display for medium screens */
+@media screen and (min-width:320px) and (max-width:740px) {
+  /* for screens that are at least 320 pixels wide but less than or equal to 740 pixels wide */
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@-ms-viewport {
+  width: device-width ;
+} 
+ 
+  .title {
+    font-size: 32px;
+  
+  }
+    
+  .subtitle {
+    font-size: 24px;
+  }  
+
+  .topnav a {
+    font-size: 24px;
+  }
+  .article p {
+    width: 50%;
+    margin-left: 0.5em;
+  }
